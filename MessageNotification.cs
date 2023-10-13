@@ -2,9 +2,9 @@
 
 public class MessageNotification
 {
-    private Message Message;
+    private IMessage Message;
 
-    public MessageNotification(Message message)
+    public MessageNotification(IMessage message)
     {
         Message = message;
     }

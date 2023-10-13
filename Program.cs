@@ -2,9 +2,8 @@
 
 using Dependency_Inversion;
 
-Message a = new Message();
+Sms a = new Sms();
 a.Write();
 a.Send();
-Console.WriteLine("Hello, World!");
 MessageNotification mn = new MessageNotification(a);
 mn.SendNotification();
